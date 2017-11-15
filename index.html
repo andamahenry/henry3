@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>God Is Good!</title>
+<meta http-equiv="Content-Script-Type" content="text/JavaScript" />
+<script >
+function myButton1(){
+    document.write("You Clicked me!");
+
+}
+
+</script>
+
+</head>
+
+<body bgcolor="999933">
+<marquee width="80%" behavior="alternate">
+..... HENRY AND JOHN BOSCO .....
+</marquee>
+
+<p>This is the first line!</p>
+<h1>This is the first header!</h1>
+
+<button onclick="myButton1()" color="blue">This is a button</button>
+
+<script>
+document.write("<p>This is a javascript</p>");
+</script>
+<label>Date:</label>
+<input type="date" id="mydate"></input>
+<button onclick="myDate()"  name= "agebtn">Submit</button>
+<script>
+function myDate(){
+    
+    var MyInput, myValue;
+
+MyInput=document.getElementsByTagName("input");
+var myValue = MyInput.getElementById("mydate").value;
+document.write(perseStr(myValue));
+alert("Ooops");
+
+}
+</script>
+
+</body>
+
+</html>
